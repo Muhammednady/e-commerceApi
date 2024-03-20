@@ -1,4 +1,3 @@
-
 https://student.valuxapps.com/api/
 
 =================================== https://student.valuxapps.com/api/login
@@ -17,6 +16,7 @@ https://600apps.com/elkhodarMarket/
 =====>> /api/v1/login
 login register 
 
-
-var baseUrl = "https://600apps.com/elkhodarMarket/"
-pm.environment.set("base-url" , baseUrl);
+==> When determining baseUrl in postman in pre-request tab on clicking on collection itself
+--------------------------------------------------------------------------------------------
+1- var baseUrl = "https://600apps.com/elkhodarMarket/"
+2- pm.environment.set("base-url" , baseUrl);
