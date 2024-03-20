@@ -1,6 +1,7 @@
+
 https://student.valuxapps.com/api/
 
-===================================
+=================================== https://student.valuxapps.com/api/login
 const LOGIN = 'login';
 
 const HOME = 'home';
@@ -11,3 +12,11 @@ const PROFILE = 'profile';
 const REGISTER = 'register';
 const UPDATE_PROFILE = 'update-profile';
 const SEARCH_PRODUCT = 'products/search';
+===========================================
+https://600apps.com/elkhodarMarket/
+=====>> /api/v1/login
+login register 
+
+
+var baseUrl = "https://600apps.com/elkhodarMarket/"
+pm.environment.set("base-url" , baseUrl);
