@@ -1,0 +1,27 @@
+table 1
+-----------------
+Categories
+==========
+id  ------>primary key INT
+name ------> VARCHAR 100
+name_ar ----> VARCHAR 100
+image -----> VARCHAR 255
+datetime ----> TIMESSTAMP CURRENT_TIME
+----------------------------------
+table 2
+-----------------------
+items
+==================
+id  ------>primary key INT
+name ------> VARCHAR 100
+name_ar ----> VARCHAR 100
+desc ----->   VARCHAR 255
+desc_ar ----> VARCHAR 255
+image ------>  VARCHAR 255
+count ------->  INT                                        available amount of product.
+active ------->  TINYINT    bydefault 1                     if product exist active=1 if not active=0
+price ----------> FLOAT 
+discount -------->  SMALLINT 
+date  ------------> TIMESSTAMP CURRENT_TIME                  Time when adding product 
+items_cat -------> INT 
+items_cat 'llbeRelatedto Categories_id  (Relation)
